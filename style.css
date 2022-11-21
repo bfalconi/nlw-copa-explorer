@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box; 
 }
 
 :root {
@@ -30,11 +30,12 @@ ul {
 }
 
 body {
-    background: #121214 var(--bg) no-repeat top center/contain;
+ 
+  background: #121214 var(--bg) no-repeat top center/cover;
 }
 
 body * {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif; 
 }
 
 #app {
@@ -44,29 +45,14 @@ body * {
 }
 
 header {
-  margin-bottom: 50px;
+  margin-bottom: 63px;
   text-align: center;
 }
-
-p {
-  font-family: 'Roboto', sans-serif;
-  font-size: 36px;
-  color: #f7dd45;
-
-  margin: 30px;
-  padding: 8px 16px;
-  border: 1px solid var(--card-title-border-color);
-  border-radius: 6px;
-
-  width: fit-content;
-  margin-inline: auto;
-  }
 
 #cards {
   display: flex;
   flex-direction: column;
   gap: 32px;
-  margin-bottom: 50px;
 }
 
 .card {
@@ -90,9 +76,15 @@ p {
 
   width: fit-content;
   margin-inline: auto;
-  margin-bottom: 40px;
+  margin-bottom: 53px;
 
   color: #f7dd43;
+}
+
+.card h2 span {
+  color: #e1e1e6;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 
 .card ul {
@@ -100,12 +92,7 @@ p {
   flex-direction: column;
   gap: 24px;
 
-  width: 350px;
-}
-
-.card span {
-  color: #e1e1e6;
-  font-size: 16px;
+  width: 270px;
 }
 
 .card ul li {
@@ -115,7 +102,7 @@ p {
 }
 
 .card ul li + li {
-  padding-top: 24px; 
+  padding-top: 24px;
   border-top: 1px solid #323238;
 }
 
@@ -152,9 +139,9 @@ p {
   }
 }
 
-@media (min-width: 850px) {
+@media (min-width: 700px) {
   #cards {
-    max-width: 850px;
+    max-width: 690px;
     flex-direction: row;
     flex-wrap: wrap;
   }

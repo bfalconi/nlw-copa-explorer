@@ -2,9 +2,9 @@
 
 ![preview](./assets/image/previewgithub.jpg)
 
-Projeto construído como desafio pessoal a partir do evento Next Level Week (NLW) da Rocketseat.
+Projeto construído no evento Next Level Week (NLW) da Rocketseat.
 
-[📎 Clicando aqui você pode acessar esse projeto!](https://bfalconi.github.io/nlw-copa-challenge)
+[📎 Clicando aqui você pode acessar esse projeto!](https://bfalconi.github.io/nlw-copa-explorer)
 
 ## 💻 Tecnologias
 
@@ -19,7 +19,7 @@ Você pode visualizar o layout base do projeto através desse [link](https://www
 
 ## 📝 Projeto
 
-É um projeto que apresenta a tabela da Copa do Mundo de 2022, contemplando os jogos, datas e horários. O projeto ainda está em desenvolvimento, com perspectiva de serem adicionados os resultados da fase de grupos, bem como construção das oitavas de final em diante.
+É um projeto que apresenta o calendário da Copa do Mundo de 2022 considerando os jogos do Grupo G. A expectativa é adicionar os próximos jogos do Brasil a medida que for avançando de fase. 
 
 ## 📩 Contato
 
